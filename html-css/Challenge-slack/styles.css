@@ -1,7 +1,3 @@
-
-/* < 770px Cambio de imágenes */
-/* < 551 pop-up cookies */
-/* < 1024 tamaño h1 y disposicion en columnas, mini imaganes seccion3, 2x2 en seccion4 */
 * {
   box-sizing: border-box;
 }
@@ -18,16 +14,19 @@
   height: 80px;
   font-family: Helvetica, sans-serif;
 }
+
 .logo-slack {
   display: flex;
   align-items: center;
   gap: 5px;
   font-size: 1.8rem;
 }
+
 .logo-header-slack {
   width: 20x;
   height: 50px;
 }
+
 .menu-burguer {
   margin-left: 11.2rem;
 }
@@ -39,6 +38,7 @@
   margin-right: -175px;
   object-fit: contain;
 }
+
 .header nav {
   font-size: 1.2rem;
   padding-right: 1rem;
@@ -50,16 +50,18 @@
 .principal-text-yellow{
   background-color: rgb(84, 21, 84);
 }
+
 .principal-body {
   background-color: rgb(244, 237, 228);
 }
+
 .principal-intro {
   display: flex;
   flex-flow: column;
   overflow: hidden;
   align-items: center;
-  
 }
+
 .principal-intro {
   display: flex;
   flex-flow: column;
@@ -70,6 +72,7 @@
   text-align: center;
   max-width: 620px;
 }
+
 .principal-intro h1 {
   word-spacing: -5px;
   font-size: max(7.1vw, 2.9rem);
@@ -79,11 +82,13 @@
 .principal-intro h1 span {
   color: rgb(236, 178, 46);
 }
+
 .principal-intro p {
   padding-bottom: 50px;
   padding-top: 10px;
   line-height: 1.2rem;
 }
+
 .principal-intro a {
   width: 100%;
   text-align: center;
