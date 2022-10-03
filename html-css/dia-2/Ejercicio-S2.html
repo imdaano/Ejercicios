@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mailchimp form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <aside>
+      <img
+        class="logo" src="../../assets/form-mailchimp.png" alt="logo"
+      />
+    </aside>
+    <header class="header-box">
+        <div>
+            <h1>Welcome to Mailchimp</h1>
+                <p>Find your people. Engage your customers. Build your brand. Do it all
+                with Mailchimp's Marketing Platform. Already have an account? <a class="log" href="">Log in</a> </p>
+        </div>
+    </header>
+    <main>
+        <div class="principal-box">
+            <form action="/" method="get">
+                <label>
+                    <p>Email</p>
+                    <input  
+                        type="email" 
+                        name="user" 
+                        required 
+                    />
+                </label>
+                <label>
+                    <p>Username</p>
+                    <input 
+                        type="text" 
+                        name="username" 
+                        required 
+                    />
+                </label>
+                <label>
+                    <p>Password</p>
+                    <div class="showpassword">
+                    <img
+                        class="eyeimage"
+                        src="../../assets/showpassword.PNG"
+                        alt="show"
+                    />
+                    <span>Show</span>
+                    </div>
+                    <input
+                        type="password"
+                        name="Pwd"
+                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                        required
+                    />
+                </label>
+                <div class="requirements">
+                    <ul>
+                        <li>One lowercase character</li>
+                        <li>One uppercase character</li>
+                        <li>One number</li>
+                        <li>One special character</li>
+                        <li>8 characters minimum</li>
+                    </ul>
+                </div>
+
+                <div class="sign-up">
+                    <div>
+                        <input 
+                        class="sign-in" 
+                        type="submit" 
+                        value="Sign Up" 
+                        />
+                    </div>
+                    <div>
+                        <input type="checkbox" name="consent" />
+                    </div>
+                    <div>
+                        <p>
+                            I don't want to receive emails about new Mailchimp products,
+                            best practices, or special offers.
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer-box">
+        <p>
+            By clicking the "Sign Up" button, yo are creating a Mailchip account,
+            and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>
+        </p>
+    </footer>
+  </body>
+</html>

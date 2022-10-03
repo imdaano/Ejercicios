@@ -1,0 +1,143 @@
+.header-box {
+    background-color: rgb(254, 254, 254);    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    max-width: 500px;
+}
+
+.menu {
+    position: fixed;
+    margin: 10px;
+    text-decoration: none;
+}
+
+form {
+    height: 120px;
+    width: 450px;
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.searched {
+    display: flex;
+    justify-content: left;
+    width: 400px;
+} 
+
+#search {
+    width: 310px;
+}
+
+
+.filter {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 12px;
+}
+
+.main-box {
+    background-color: rgb(255, 255, 255);
+}
+
+.shirts {
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+}
+
+.product {
+    width: 15%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 2px;
+    align-items: center;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.newsletter {
+    font-weight: 100;
+}
+
+p {
+    margin: 0px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mail {
+    width: 300px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    display: inline-flex;
+    
+}
+
+hr {
+    width: 400px;
+} 
+
+
+.contact-help {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact + .contact-div {
+    padding: 2em;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
